@@ -1,3 +1,6 @@
+/* shared styles */
+
+/* Fonts */
 .raleway-font{
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
@@ -11,12 +14,36 @@
   font-weight: <weight>;
   font-style: normal;
 }
+
+
+/* Buttons styles */
+.btn-primary{
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 15px 48px 15px 48px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    background: linear-gradient(to right, #6a11cb, #2575fc); 
+}
+
+.btn-primary:hover {
+  background: linear-gradient(to right, #ac83d5, #0905f5); /* hover gradient */
+}
+
+/* Shared Styles end */
+
+
+
+/* header styles */
 .header{
     background-image: url(../B12A01-landing-launchpad/Assets/Hero-bg.png);
     margin-bottom: 0;
-
 }
 
+/* navigation styles */
 nav {
     display: flex;
     margin: 0 150px;
@@ -27,6 +54,11 @@ nav {
     align-items: center;
 }
 
+.container{
+    text-align: center; 
+    margin: 0 268px;
+    justify-content: center;
+}
 
 .title-primary{
     color: #4e47ff;
@@ -39,46 +71,34 @@ nav {
     font-weight: 700;
     text-align: center;
 }
-.btn-primary{
-    color: #ffffff;
-    font-weight: 700;
-    font-size: 20px;
-    padding: 15px 48px 15px 48px;
-    border-radius: 15px;
-    border: none;
-    cursor: pointer;
-    transition: background 0.3s ease;
-    background: linear-gradient(to right, #6a11cb, #2575fc); 
-}
-.btn-primary:hover {
-  background: linear-gradient(to right, #ac83d5, #0905f5); /* hover gradient */
-}
+
+
 .btn-banner{
        align-content: center;
        margin-bottom: 150px;
 }
+/* header styles end */
+
+
 
 body {
   margin: 0;
   padding: 0;
 }
 
-.section-spacer {
-  height: 0; /* or remove this element entirely */
-}
+
+
+/* main part styles */
 main{
     background-color: #f5f8ff;
       margin-top: 0;
 
 }
 
-.container{
-    text-align: center; 
-    margin: 0 268px;
-    justify-content: center;
-}
 
 
+
+/* Action Section */
 .action{
     display: flex;
     margin: 0px 240px 115px 240px;
@@ -99,6 +119,8 @@ main{
     font-size: 32px;
 }
 
+
+/* Productive Users Section */
 .user{
     margin: 10px 240px 80px 240px;
     background-color: rgba(78, 71, 255, 0.1);
@@ -133,6 +155,8 @@ main{
 }
 
 
+
+/* Users’ Feedback Section */
 .feedbacks {
   background-color: #f5f8ffd0;
   margin: 10px 240px 80px 240px;
@@ -214,6 +238,8 @@ main{
 }
 
 
+
+/* Let’s Get In Touch Section  */
 .touch-title{
     font-weight: 700;
     font-size: 110px;
@@ -264,6 +290,8 @@ main{
 }
 
 
+
+/* Footer Section */
 .footer-div{
     margin: 80px 450px;
     text-align: center;
