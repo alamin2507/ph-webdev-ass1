@@ -22,14 +22,12 @@ nav {
     gap: auto;
     margin-bottom: 158px;
     padding: 50px 0px;
+    align-items: center;
 }
 .title-primary{
     color: #4e47ff;
     font-weight: 800;
     font-size: 38px;
-}
-nav{
-    align-items: center;
 }
 
 .title-banner{
@@ -45,11 +43,16 @@ nav{
     padding: 15px 48px 15px 48px;
     border-radius: 15px;
     border: none;
+    cursor: pointer;
+    transition: background 0.3s ease;
 }
 .btn-banner{
        align-content: center;
        margin-bottom: 150px;
 }
+
+
+
 .container{
     text-align: center; 
     margin: 0 268px;
@@ -107,4 +110,57 @@ nav{
     color: rgba(0, 0, 0, 0.5);
     font-weight: 400;
     font-size: large;
+}
+
+
+.touch-title{
+    font-weight: 700;
+    font-size: 110px;
+}
+
+.touch{
+    display: flex;
+    margin: 10px 240px 130px 240px;
+    gap: 160px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-form {  
+  padding: 20px;
+  width: 700px;
+  margin: 20px auto;
+}
+.contact-form label {
+  font-weight: 600;
+  display: block;
+  margin: 12px 0 4px;
+  font-size: 16px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 16px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.contact-form textarea {
+  height: 100px;
+  resize: vertical;
+}
+
+.contact-form button {
+  margin-top: 16px;
+
+
+  padding: 14px;
+  width: 100%;
+
+
+  cursor: pointer;
+  transition: background 0.3s ease;
 }
