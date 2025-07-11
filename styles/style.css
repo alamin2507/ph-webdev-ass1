@@ -13,6 +13,8 @@
 }
 .header{
     background-image: url(../B12A01-landing-launchpad/Assets/Hero-bg.png);
+    margin-bottom: 0;
+
 }
 
 nav {
@@ -24,6 +26,8 @@ nav {
     padding: 50px 0px;
     align-items: center;
 }
+
+
 .title-primary{
     color: #4e47ff;
     font-weight: 800;
@@ -36,7 +40,6 @@ nav {
     text-align: center;
 }
 .btn-primary{
-    background-color: #4e47ff;
     color: #ffffff;
     font-weight: 700;
     font-size: 20px;
@@ -45,13 +48,29 @@ nav {
     border: none;
     cursor: pointer;
     transition: background 0.3s ease;
+    background: linear-gradient(to right, #6a11cb, #2575fc); 
+}
+.btn-primary:hover {
+  background: linear-gradient(to right, #ac83d5, #0905f5); /* hover gradient */
 }
 .btn-banner{
        align-content: center;
        margin-bottom: 150px;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+}
 
+.section-spacer {
+  height: 0; /* or remove this element entirely */
+}
+main{
+    background-color: #f5f8ff;
+      margin-top: 0;
+
+}
 
 .container{
     text-align: center; 
@@ -62,7 +81,8 @@ nav {
 
 .action{
     display: flex;
-    margin: 115px 240px 115px 240px;
+    margin: 0px 240px 115px 240px;
+    padding-top: 150px;
     gap: 310px;
     justify-content: space-between;
 
@@ -80,7 +100,7 @@ nav {
 }
 
 .user{
-    margin: 10px 240px 130px 240px;
+    margin: 10px 240px 80px 240px;
     background-color: rgba(78, 71, 255, 0.1);
     border-radius: 30px;
 }
@@ -109,7 +129,88 @@ nav {
 .user-subtitle{
     color: rgba(0, 0, 0, 0.5);
     font-weight: 400;
-    font-size: large;
+    font-size: 22px;
+}
+
+
+.feedbacks {
+  background-color: #f5f8ffd0;
+  margin: 10px 240px 80px 240px;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.feedback-title{
+    font-weight: 700;
+    font-size: 46px;
+}
+
+.feedback-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.feedback-card {
+  background: rgba(255, 255, 255, 0.762);
+  padding: 20px;
+  border-radius: 12px;
+  max-width: 400px;
+  text-align: left;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+}
+
+.stars {
+  display: flex;
+  gap: 4px;
+  margin-bottom: 10px;
+}
+
+.stars img {
+  width: 16px;  
+  height: 16px;
+  object-fit: contain;
+}
+
+.feedback-card h3 {
+  font-size: 26px;
+  font-weight: bold;
+  margin: 0 0 7px;
+}
+
+.feedback-card p {
+  font-size: 20px;
+  color: #444;
+  margin-bottom: 20px;
+  font-weight: 400;
+}
+
+.reviewer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.reviewer img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.reviewer strong {
+  font-size: 16px;
+  color: #676767;
+  margin-bottom: 4px;
+}
+
+.reviewer .date {
+  font-size: 13px;
+  color: #999;
 }
 
 
@@ -124,6 +225,7 @@ nav {
     gap: 160px;
     justify-content: space-between;
     align-items: center;
+    padding-bottom: 70px;
 }
 
 .contact-form {  
@@ -155,12 +257,42 @@ nav {
 
 .contact-form button {
   margin-top: 16px;
-
-
   padding: 14px;
   width: 100%;
-
-
   cursor: pointer;
   transition: background 0.3s ease;
+}
+
+
+.footer-div{
+    margin: 80px 450px;
+    text-align: center;
+}
+.footer-title{
+    font-size: 90px;
+}
+
+.footer-subtitle{
+    font-weight: 300;
+    font-size: 14px;
+    max-width: 600px;
+    margin: 0 auto ;
+    color: #444;
+}
+
+.footer-nav {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  font-size: 14px;
+}
+
+.footer-nav a {
+  color: #666;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-nav a:hover {
+  color: #3a37ff;
 }
