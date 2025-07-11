@@ -59,7 +59,7 @@ nav{
 
 .action{
     display: flex;
-    margin: 115px 340px 115px 340px;
+    margin: 115px 240px 115px 240px;
     gap: 310px;
     justify-content: space-between;
 
@@ -69,9 +69,42 @@ nav{
 }
 .action-title{
     font-weight: 700;
-    font-size: 42px;
+    font-size: 46px;
 }
 .action-subtitle{
     font-weight: 200;
-    font-size: 24px;
+    font-size: 32px;
+}
+
+.user{
+    margin: 10px 240px 130px 240px;
+    background-color: rgba(78, 71, 255, 0.1);
+    border-radius: 30px;
+}
+
+.user-title{
+    font-weight: 700;
+    font-size: 42px;
+    padding: 40px 50px 0px 50px;
+    text-align: center;
+}
+.blocks{
+    margin: 0px 0px 70px 0px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.block{
+    margin: 10px 0px 65px 15px;
+    padding: 10px;
+    text-align: center;
+}
+.user-header{
+    color: #4e47ff;
+    font-weight: 700;
+    font-size: 95px;
+}
+.user-subtitle{
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: 400;
+    font-size: large;
 }
